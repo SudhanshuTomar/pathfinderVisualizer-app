@@ -451,7 +451,7 @@ export default class PathfindingVisualizer extends Component {
           type="button"
           className="btn btn-primary"
           onClick={() => this.visualize('BFS')}>
-          Bread First Search
+          Breadth First Search
         </button>
         <button
           type="button"
@@ -473,7 +473,7 @@ export default class PathfindingVisualizer extends Component {
             onClick={() => this.toggleView()}>
             Desktop View
           </button>
-          )};
+          )}
         <table
           className="grid-container"
           onMouseLeave={() => this.handleMouseLeave()}>
